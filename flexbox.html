@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .par{
+            display: flex;
+            border: 2px solid rgb(5, 5, 5);
+            flex-direction: row;
+            height: 500px;
+            width: 900px;
+            display: flex;
+            justify-content:space-between;
+            align-items:center;
+            flex-direction:row;
+            margin-left: 350px;
+            border-radius: 25px;
+            background-color: rgb(34, 32, 32);
+            margin-left: 200px;
+            margin-top: 50px;
+            box-shadow: 10px 10px 15px black;
+            
+        }
+        
+        .h1{
+            height: 300px;
+            width: 250px;
+            border: 3px solid rgb(0, 255, 242);
+            border-radius: 25px;
+            box-shadow: 5px 5px 10px rgb(0, 225, 242) ;
+            position: relative;
+           
+            
+           
+
+        }
+        
+        .h1::after{
+            content: "";
+            width: 150px;
+            height: 150px;
+            background-color: rgb(19,172,192);
+            position:absolute;
+            top: 0;
+            right: 100px;
+             border-radius: 13% 2% 50% 0%;
+             z-index: 1;
+            
+        }
+        .h2{
+            height: 300px;
+            width: 250px;
+            border: 3px solid rgb(0, 225, 242) ;
+            border-radius: 25px;
+            box-shadow: 5px 5px 10px rgb(0, 225, 242);
+            position: relative;
+        }
+        .h2::after{
+            content: "";
+            width: 150px;
+            height: 150px;
+            background-color: rgb(19,172,192);
+            position: absolute;
+            top: 0;
+            right: 100px;
+             border-radius: 13% 2% 50% 0%;
+        }
+        .h3{
+            height: 300px;
+            width: 250px;
+            border: 3px solid rgb(0, 225, 242);
+            border-radius: 25px;
+            box-shadow: 5px 5px 10px rgb(0, 225, 242) ;
+            position: relative;
+        }
+        .h3::after{
+            content: "";
+            width: 150px;
+            height: 150px;
+            background-color: rgb(19,172,192);
+            position: absolute;
+            top: 0;
+            right: 100px;
+             border-radius: 13% 2% 50% 0%;
+        }
+        .p1{
+                   display: flex;
+            background-color: rgb(34, 32, 32);
+              width: 150px;
+               height: 150px;
+            justify-content: center;
+            margin-top: -225px;
+            margin-left: 45px;
+            border-radius: 50%;
+            position:fixed;
+            z-index:2 ;
+          
+          
+           
+        }
+       
+        .p2{
+             display: flex;
+            background-color: rgb(34, 32, 32);
+             width: 150px;
+            height: 150px;
+             justify-content: center;
+            margin-top: 75px;
+            margin-left: 65px;
+            border-radius: 50%;
+            position: fixed;
+            z-index: 2;
+           
+        }
+        .p3{
+                   display: flex;
+            background-color: rgb(34, 32, 32);
+          width: 150px;
+          height: 150px;
+          justify-content: center;
+            margin-top: 75px;
+            margin-left: 65px;
+            border-radius: 50%;
+            position: absolute;
+            z-index: 2;
+           
+        }
+        .h1 #b1{
+            margin-top: 280px;
+            margin-left: 80px;
+            border-radius: 20px;
+            background-color: aqua;
+            position: fixed;
+            cursor: pointer;
+            color: rgb(19, 59, 235);
+        }
+        .h2 #b2{
+            margin-top: 280px;
+            margin-left: 80px;
+            border-radius: 20px;
+            background-color: aqua;
+            position: fixed;
+            cursor: pointer;
+            color: rgb(21, 24, 230);
+        }
+        .h3 #b3{
+            margin-top: 280px;
+            margin-left: 80px;
+            border-radius: 20px;
+            background-color: aqua;
+            position: fixed;
+            cursor: pointer;
+            color: rgb(3, 38, 233);
+        }
+        .h1 #ba1{
+            color: aliceblue;
+            display: flex;
+            margin-top: 200px;
+        }
+       
+        
+        
+    </style>
+</head>
+<body>
+    <div class="par">
+        <div class="h1">
+            <button id="b1">GO TO HTML </button>
+            <b id="ba1">HTML (HyperText Markup Language) is the standard language used for creating and structuring content on the web with tags.</b>
+            
+        <div class="p1">
+            <img src="html1.png" alt="" >
+           
+        </div>
+        </div >
+        <div class="h2">
+            <button id="b2">GO TO css </button>
+         <div class="p2">
+            <img src="op-removebg-preview.png" alt="">
+           
+         </div>
+        </div>
+        <div class="h3">
+            <button id="b3">GO TO java </button>
+           <div class="p3">
+              <img src="java1.png" alt="">
+              
+           </div>
+        </div>
+       
+
+    </div>
+</body>
+</html>        
